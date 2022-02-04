@@ -29,11 +29,20 @@ const Product = () => {
 				<p className={styles.desc}>{pizza.desc}</p>
 				<h3 className={styles.choose}>Choose the size</h3>
 				<div className={styles.sizes}>
-					<div className={styles.size}>
-						<Image src="/img/size.png" layout="fill" alt=""/>
-
+					<div className={styles.size} onClick={() => setSize(0)}>
+						<Image src="/img/size.png" layout="fill" alt="" />
+						<span className={styles.number}>Small</span>
+					</div>
+					<div className={styles.size} onClick={() => setSize(1)}>
+						<Image src="/img/size.png" layout="fill" alt="" />
+						<span className={styles.number}>Medium</span>
+					</div>
+					<div className={styles.size} onClick={() => setSize(2)}>
+						<Image src="/img/size.png" layout="fill" alt="" />
+						<span className={styles.number}>Large</span>
 					</div>
 				</div>
+				<h3 className={styles.choose}>Choose additional ingredients</h3>
 			</div>
 		</div>
 	);
