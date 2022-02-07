@@ -39,41 +39,62 @@
 	width: 30px;
 	height: 30px;
 	position: relative;
-   cursor: pointer;
+	cursor: pointer;
 }
 
-.size:last-child{
-   width: 50px;
-   height: 50px;
+.size:last-child {
+	width: 50px;
+	height: 50px;
 }
 
-.size:nth-child(2){
-   width: 40px;
-   height: 40px;
+.size:nth-child(2) {
+	width: 40px;
+	height: 40px;
 }
 
-.number{
-   position: absolute;
-   top: -5px;
-   right: -20px;
-   background: teal;
-   color: white;
-   font-size: 12px;
-   padding: 0 5px;
+.number {
+	position: absolute;
+	top: -5px;
+	right: -20px;
+	background: teal;
+	color: white;
+	font-size: 12px;
+	padding: 0 5px;
 	border-radius: 10px;
 }
 
-.ingredients{
+.ingredients {
 	display: flex;
 	margin-bottom: 30px;
 }
 
-.option{
+.option {
 	display: flex;
 	align-items: center;
 	margin-right: 10px;
 	font-size: 14px;
 	font-weight: 500;
-	
 }
 
+.checkbox {
+	width: 20px;
+	height: 20px;
+}
+
+.quantiy {
+	width: 50px;
+	height: 30px;
+}
+
+.add {
+}
+
+.button {
+	height: 30px;
+	margin-left: 10px;
+	background-color: #d1411e;
+	color: white;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+}

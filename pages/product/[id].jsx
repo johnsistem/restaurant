@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../../styles/product.module.css";
+import styles from "../../styles/Product.module.css";
 import Image from "next/image";
 
 const Product = () => {
@@ -80,6 +80,10 @@ const Product = () => {
 						/>
 						<label htmlFor="double">Garlic Sauce</label>
 					</div>
+				</div>
+				<div className={styles.add}>
+					<input type="number" name="" id="" defaultValue={1} className={styles.quantiy} />
+					<button className={styles.button}>Add to Cart</button>
 				</div>
 			</div>
 		</div>
