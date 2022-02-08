@@ -7,7 +7,7 @@
 	justify-content: space-between;
 	position: sticky;
 	top: 0;
-	z-index: 999;/* apilamiento de capaz */
+	z-index: 999; /* apilamiento de capaz */
 }
 
 .item {
@@ -94,4 +94,18 @@
 	justify-content: center;
 	font-weight: bold;
 	color: #d1411e;
+}
+
+
+
+/* MOVIL */
+@media screen and (max-width: 480px) {
+	.item:nth-child(2) {
+		display: none;
+	}
+
+	.item:nth-child(1) {
+	flex: 3;
+}
+	
 }
