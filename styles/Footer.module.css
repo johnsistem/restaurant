@@ -36,3 +36,11 @@
 .motto{
   color: rgb(211,211,211);
 }
+
+@media screen and (max-width:480px) {
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+}
